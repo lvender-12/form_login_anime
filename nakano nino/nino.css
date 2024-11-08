@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'iceberg';
+    src: url('Iceberg-Regular.ttf') format('truetype');
+}  
+
+body, html {
+    background-color: #36202D;
+    height: 100%;
+    margin: 0;
+    font-family: 'iceberg', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url('nino.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.tombol {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    font-family: 'iceberg', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #36202D;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #2c1b25;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+    transition: color 0.3s; /* Transisi untuk efek hover */
+}
+
+.link a:hover {
+    color: #ffcc00; /* Ubah warna saat hover */
+}
