@@ -93,9 +93,9 @@ button:hover {
     color: #fff;
     text-align: center;
     margin: 0 10px;
-    transition: color 0.3s; /* Transisi untuk efek hover */
+    transition: color 0.3s;
 }
 
 .link a:hover {
-    color: #ffcc00; /* Ubah warna saat hover */
+    color: #ffcc00;
 }
